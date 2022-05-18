@@ -1,2 +1,2 @@
 # college
-All things related to my college will be hosted here
+All things related to my college life will be hosted here
