@@ -9,6 +9,7 @@
 <style>
     body {
         display: flex;
+        flex-direction: column;
         font-size: xx-large;
         align-items: center;
         justify-content: center;
@@ -19,14 +20,38 @@
         background-color: darkslategray;
         color: white;
     }
+    p {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    a {
+        color: blanchedalmond;
+    }
     a:visited{
         color: bisque;
     }
 </style>
 <body>
-    <a href="p1.html">1</a>
-    <a href="p2.html">2</a>
-    <a href="p3.html">3</a>
-    <a href="p4.html">4</a>
+
+    <p>
+        Round 1
+        <span>
+            <a href="round_1/p1.html">1</a>
+            <a href="round_1/p2.html">2</a>
+            <a href="round_1/p3.html">3</a>
+            <a href="round_1/p4.html">4</a>
+        </span>
+
+    </p>
+    <p>
+        Round 2
+        <span>
+            <a href="round_2/p1.html">1</a>
+            <a href="round_2/p2.html">2</a>
+            <a href="round_2/p3.html">3</a>
+        </span>
+
+    </p>
 </body>
 </html>
